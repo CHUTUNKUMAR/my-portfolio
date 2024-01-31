@@ -1,0 +1,132 @@
+.main{
+    width: 100%;
+    height: 700px;
+    /* background-color: rgba(212, 216, 220, 0.676); */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .left{
+    width: 35%;
+    height: 90%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 0px 8px 2px gray;
+}
+.main .right{
+    width: 60%;
+    height: 90%;
+    /* border: 1px solid green; */
+    background-color: white;
+    box-shadow: 2px 0px 8px 2px gray;
+}
+.main .left .top{
+    width: 95%;
+    height: 48%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .left .top .col{
+    width: 99%;
+    height: 33%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.col .lft{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+.col .ryt{
+    width: 73%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.h{
+    background-color: rgba(19, 172, 232, 0.333);
+    width: 60px;
+    height: 60px;
+    border-radius:100% ;
+}
+.fa{
+    color: rgb(27, 68, 161);
+    padding: 10px;
+}
+.col:hover .fa{
+    transition: all .3s;
+    color: white;
+}
+.col:hover .h{
+    background-color: blue;
+    transition: all .3s;
+}
+
+
+/* & right section starts  */
+.main .right .input{
+    width: 45%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.main .right .input1{
+    width: 93.3%;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.main .right .input2{
+    width: 93.3%;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.main .right .text{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.main .right input{
+    border: none;
+    border: 1px solid blue;
+    padding: 3px;
+    border-radius: 5px;
+}
+.main .right .btn{
+    padding: 11px 15px;
+    margin-left: 220px;
+    color: white;
+    background-color: rgba(10, 94, 196, 0.945);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.main .right textarea{
+    border: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.main .right .btn:hover{
+    background-color: blue;
+    transition: all .3s;
+}
+input::placeholder{
+    color: red;
+    font-size: 15px;
+}
+textarea::placeholder{
+    color: red;
+    font-size: 15px;
+}
+/* & right section ends here */

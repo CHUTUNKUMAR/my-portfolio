@@ -1,0 +1,360 @@
+.main{
+    /* border: 2px solid red; */
+    height: 590px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    position: relative;
+}
+.main .pic{
+    width: 27%;
+    height: 100%;
+    /* border:1px solid green; */
+    background-color: #0f1012;
+    position: relative;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+.main .pic .mypic{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border:9px solid rgb(87, 87, 87);
+    margin: auto;
+    margin-top: 10px;
+}
+.main .pic .mypic .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.main .pic .icon{
+    width: 99%;
+    height: 140px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .pic .icon .i{
+    color: white;
+    font-weight: bold;
+    border-radius: 100%;
+    background-color: #515255;
+    margin-left: 10px;
+    padding: 10px;
+}
+.main .pic .icon .i:hover{
+    transition: .5s;
+    background-color: blue;
+}
+.main .pic .bottom{
+    width: 99%;
+    height: 290px;
+    /* border: 1px solid red; */
+}
+.main .pic .bottom ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    color: rgba(227, 223, 223, 0.888);
+    text-decoration: none;
+}
+ul li .a{
+    margin-right: 30px;
+}
+ul li:hover .a{
+    color: rgba(36, 36, 227, 0.9);
+}
+ul li a:hover{
+    color: white;
+    /* font-weight: bold; */
+}
+.email:hover{
+    color: blue;
+}
+
+/*** Content parts started */
+.main .content{
+    width: 73%;
+    height: 100%;
+    border: 1px solid green;
+    background-image: url("../Data/bg.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    position: absolute;
+    right: 0;
+    margin-right: 110;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .content .name{
+    width: 70%;
+    height: 80%;
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+.main .content .pic1{
+    width: 50%;
+    height: 80%;
+}
+.main .content .pic1 img{
+    width: 100%;
+    height: 100%;
+}
+/* ** content parts ends */
+
+
+/* !footer starts */
+.footer{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red;  */
+    /* background-color: #282c34; */
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+/* .footer .left{
+    width: 27%;
+} */
+.footer .right{
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color:white;
+}
+.footer .right .heading{
+    padding: 10px;
+    /* border:1px solid red ; */
+}
+
+.heading .para{
+    line-height: 25px;
+    font-size: large;
+}
+.footer .profile{
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .profile .pic{
+    width: 30%;
+    height: 95%;
+    /* border: 1px solid rgb(255, 0, 123); */
+    border-radius: 10px;
+}
+.footer .profile .details{
+    width: 65%;
+    height: 95%;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .profile .details .up{
+    width: 95%;
+    height: 28%;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center; */
+}
+.up .h{
+    color: rgb(29, 34, 91);
+}
+.footer .profile .details .down{
+    width: 95%;
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .profile .details .down .left{
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    text-align: left;
+}
+.left ul li{
+    list-style: none;
+    margin-top: 18px;
+    margin-left: -25px;
+    font-size: 17px;
+    font-weight: 100px;
+}
+
+/* ** Skills started */
+.skills{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 550px;
+    position: relative;
+}
+.skills .right{
+    width: 73%;
+    /* border: 2px solid green; */
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: rgba(238, 243, 241, 0.984);
+}
+.skills .right .top{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 98%;
+    margin: auto;
+}
+.skills .right .desc{
+    width: 98%;
+    height: 100px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.skills .right .skillsDetails{
+    width: 98%;
+    height: 300px;
+    /* border: 2px solid violet; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills .right .skillsDetails .left{
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills .right .skillsDetails .left .col{
+    width: 94%;
+    height: 23%;
+    /* border: 1px solid blue; */
+}
+.skills .right .skillsDetails .left .col .html{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: rgb(49, 169, 216); */
+}
+.col .hr{
+    width: 100%;
+    height: 11px;
+    background-color: rgb(16, 103, 150);
+}
+.col .hr1{
+    width: 90%;
+    height: 11px;
+    margin-right: 50px;
+    background-color: rgb(16, 103, 150);
+}
+.col .hr2{
+    width: 70%;
+    height: 11px;
+    margin-right: 120px;
+    background-color: rgb(16, 103, 150);
+}
+/* * Skills ends */
+
+
+
+
+/** Educational Background */
+.educat{
+    width: 100%;
+    height: 480px;
+    position: relative;
+    right: 0;
+}
+.educat .education{
+    width: 73%;
+    height: 15%;
+    position: absolute;
+    right: 0;
+    /* border: 2px solid red; */
+}
+.educat .eduDetails{
+    width: 73%;
+    height: 270px;
+    /* border: 1px solid green; */
+    position: absolute; 
+    right: 0;
+    top: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.educat .eduDetails .matric{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.matric .span{
+    color: rgb(11, 49, 130);
+    font-size: 25px;
+}
+.education p{
+    color: red;
+}
+/*&&&&&&&&&&&&& Gallery starts here  */
+.gallery{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.gallery .right{
+    width: 72.5%;
+    height: 100%;
+    border: 2px solid green;
+    background-color: #0f1012;
+    position: absolute;
+    right: 0;
+    border-radius: 15px;
+}
+/* &&&&&&&&&&&&&& Gallery Ends here */
+
+/* &&&&&&&&&&&& Contact Details Start here */
+.contact{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.contact .right{
+    width: 73%;
+    height: 100%;
+    /* border: 1px solid green; */
+    position: absolute;
+    right: 0;
+}
+/* &&&&&&&&&&&& Contact Details Ends here */
