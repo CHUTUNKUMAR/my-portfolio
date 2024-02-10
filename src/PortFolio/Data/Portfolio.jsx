@@ -2,19 +2,20 @@ import React, { useState } from "react";
 import CSS from '../CSS/portfolio.module.css'
 import mypic from './mpic.jpg';
 import profile from './Mypic.jpg'
-import mypic1 from './withoutbackground.png'
+// import mypic1 from './withoutbackground.png'
 import {FaBook, FaFacebook, FaFilePdf, FaGreaterThan, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaServicestack, FaTwitter, FaUser, FaYoutube} from 'react-icons/fa'
 import Content from "./Content";
 import Education from "./Education";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
+import ToolTech from "./ToolTech";
 export default function Portfolio()
 {
     let [show ,setShow]=useState(false);
     setTimeout(()=>
     {
         setShow(true)
-    },4000)
+    },200)
     return(
         <>
         <div className={CSS.main}>
@@ -26,11 +27,11 @@ export default function Portfolio()
                 </div>
                 <div className={CSS.bottom}>
                     <ul>
-                        <li><a href="" target=""><FaHome className={CSS.a}/>Home</a></li>
-                        <li><a href=""><FaUser className={CSS.a}/>About</a></li>
-                        <li><a href=""><FaFilePdf className={CSS.a}/>Resume</a></li>
-                        <li><a href=""><FaBook className={CSS.a}/>Portfolio</a></li>
-                        <li><a href=""><FaServicestack className={CSS.a}/>Services</a></li>
+                        <li><a href="#"><FaHome className={CSS.a}/>Home</a></li>
+                        <li><a href="#"><FaUser className={CSS.a}/>About</a></li>
+                        <li><a href="#"><FaFilePdf className={CSS.a}/>Resume</a></li>
+                        <li><a href="#"><FaBook className={CSS.a}/>Portfolio</a></li>
+                        <li><a href="#"><FaServicestack className={CSS.a}/>Services</a></li>
                     </ul>
 
                     <a href="chutunkumar2018@gmail.com" style={{color:"red",marginLeft:"30px",textDecoration:"none"}}><FaMailBulk/>chutunkumar2018@gmail.com</a>
@@ -162,6 +163,13 @@ export default function Portfolio()
         <div className={CSS.educat}>
         <Education/>
         </div>
+        {/* ToolTech starts here */}
+        <div className={CSS.gallery}>
+            <div className={CSS.right}>
+                <ToolTech/>
+            </div>
+        </div>
+        {/* ToolTech starts here */}
 
         {/* Gallery Starts here */}
         <div className={CSS.gallery}>

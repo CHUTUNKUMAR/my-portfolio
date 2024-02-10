@@ -3,6 +3,7 @@
 import Contact from './PortFolio/Data/Contact';
 import Content from './PortFolio/Data/Content';
 import Portfolio from './PortFolio/Data/Portfolio';
+import ToolTech from './PortFolio/Data/ToolTech';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         </a>
       </header> */}
       <Portfolio/>
-
+      {/* <ToolTech/> */}
       {/* <Content/> */}
       {/* <Contact/> */}
      

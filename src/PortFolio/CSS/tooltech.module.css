@@ -1,0 +1,64 @@
+.toolbox{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.toolbox .header{
+    width: 100%;
+    height: 18%;
+    /* border: 1px solid green; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: italic; */
+    font-weight: bold;
+    background-color: crimson;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+.toolbox .tool{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+}
+.toolbox .tool .box{
+    width: 12%;
+    height: 90%;
+    border: 1px solid green;
+    /* background-color: violet; */
+    background-image: linear-gradient(rgba(244, 7, 244, 0.925),rgba(185, 139, 225, 0.925),rgba(242, 7, 242, 0.984));
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.toolbox .tool .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid red;
+    position: relative;
+    bottom: -18px;
+    font-weight: bold;
+    transition: all .50s;
+}
+.toolbox .tool .box:hover img{
+    bottom: 15px;
+}
+.toolbox .tool .box:hover h3{
+    transform: scale(1.1);
+}
