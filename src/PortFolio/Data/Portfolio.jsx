@@ -15,7 +15,7 @@ export default function Portfolio()
     setTimeout(()=>
     {
         setShow(true)
-    },200)
+    },2000)
     return(
         <>
         <div className={CSS.main}>
