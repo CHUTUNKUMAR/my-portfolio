@@ -13,15 +13,15 @@ export default function Content()
         cursor
         cursorStyle='_'
         typeSpeed={50}
-        delaySpeed={1000}
+        delaySpeed={100}
         deleteSpeed={50}/></p><h1 style={{color:"hotpink",fontWeight:"10000px"}}><Typewriter 
         words={['Web Developer']}
         loop='infinite'
         cursor
         cursorStyle='_'
         typeSpeed={50}
-        delaySpeed={1000}
-        deleteSpeed={50}/></h1></div>
+        delaySpeed={100}
+        deleteSpeed={100}/></h1></div>
         <div className={CSS.pic1}><img src={mypic1} alt="" /></div>
         </>
     )
